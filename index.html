@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amorzinho</title>
+    <link rel="stylesheet" type="text/css" href="estiloindex.css">
+</head>
+<body>
+    <script>
+        function mostrar(id){
+            carac = document.getElementsByClassName('ancoras')
+            for (var i = 0; i < carac.length; i++) { // coloca todos eles invisiveis
+                carac[i].style.display = 'none'; 
+            }
+
+            clicada = document.getElementById(id); //recupera o id passado por argumento
+            clicada.style.display = 'inherit'; //faz ele ser exibido conforme o item pai
+        }
+        
+    </script>
+    <audio controls>
+        <source src="Dammit.mp3" type="audio/mpeg">
+    </audio>
+    <br>
+    <div class="carta">
+        <h1>Carta aberta ao amor</h1>
+        <h3>Leonardo,</h3>
+        <p>Você me mostrou o amor exatamente do jeitinho que é, e eu não sei como expressar 
+            isso de outra forma a não ser te falando e escrevendo. Então, como mais uma forma de 
+            declarar o meu amor, criei essa página aqui pra você apreciar 10 coisas que eu amo em você!
+            (Não necessariamente nessa ordem)
+        </p>
+    </div>
+    <br>
+    <div id="lista">
+        <li onclick="mostrar('cheiro')">Cheiro</li>
+        <li onclick="mostrar('sorriso')">Sorriso</li>
+        <li onclick="mostrar('talentos')">Talentos</li>
+        <li onclick="mostrar('abracos')">Abraços</li>
+        <li onclick="mostrar('cabelos')">Cabelos</li>
+        <li onclick="mostrar('corpo')">Corpo</li>
+        <li onclick="mostrar('responsa')">Responsabilidade</li>
+        <li onclick="mostrar('gm')">Gostos musicais</li>
+        <li onclick="mostrar('fami')">Família</li>
+        <li onclick="mostrar('pia')">Piadas</li>
+    </div>
+    <br>
+    <div id="carac">
+       <div id="cheiro" class="ancoras"><h4>Cheiro</h4>
+            <img src="cheiro.jpg">
+            <br>
+            <p>
+                Preciso nem falar né? Sinto seu cheiro quase todos os dias,
+                como se impregnasse no meu corpo, nos meus lençóis, na minha vida. 
+                E eu amo isso, eu amo sentir o seu calor e o odor do seu corpo quando você me abraça,
+                impressionante que mesmo depois de um dia cansado você continua tendo cheiro de amor.
+            </p>
+        </div>
+        <div id="sorriso" class="ancoras"><h4>Sorriso</h4>
+            <img src="sorriso.jpg">
+            <br>
+            <p>
+                Você sempre me fala o quão inseguro é com seus dentinhos tortos, enxerga imperfeições
+                que eu nunca consegui ver. Amo te ver sorrindo, não consigo sentir nada além de felicidade
+                ao ouvir sua risada alta, daquelas que só o Igor Guimarães te faz gargalhar e isso me 
+                deixa muito feliz e de coração quentinho, te vendo rir após um noite de trabalho cansativa
+                ou um dia ruim.
+            </p>
+        </div>
+        <div id="talentos" class="ancoras"><h4>Talentos</h4>
+            <img src="talentos.jpg">
+            <br>
+            <p>
+                Outra coisa, você é um EXCELENTE baterista e você SABE disso. É claro que você não é 
+                nenhum Travis Barker ainda, mas você sabe como é admirado e o quanto você toca bem.
+                Note que essa aba se chama "TalentoS", e me refiro a quão bom jogador você é, em TUDO.
+                Fico de cara em como você é bom em tudo que faz, e videogame tá em top 2 coisas fodas.
+                Até me ganhando no Multiversus (o que realmente me deixou bad bad).
+            </p>
+        </div>
+        <div id="abracos" class="ancoras"><h4>Abraços</h4>
+            <img src="abraco.jpg">
+            <br>
+            <p>
+                Primeiro, eu AMO os seus braços tatuados e como você me envolve neles sempre que nos
+                encontramos, não lembro mais de UMA vez que não te abracei ao te ver, afinal, você é 
+                meu melhor amigo há mais de 1 ano e todo lugar com você é um lugar feliz. Logo eu, que 
+                nunca fui muito de abraçar e evito a maior parte de contato físico que posso,
+                como você eu sinto que seria capaz de me fundir pra virarmos uma única pessoa.
+            </p>
+        </div>
+        <div id="cabelos" class="ancoras"><h4>Cabelos</h4>
+            <img src="cabelos.jpg">
+            <br>
+            <p>
+                Seus "longos" cabelos, mesmo que um pouquinho ressecados são uma característica que
+                sempre me fez te olhar diferente, te acho tão lindo com esse cabelo no ombro e tenho
+                certeza que acharia lindo se ele não chegasse nas pontas das orelhas também, porque
+                você é lindo de qualquer jeito e eu amo te admirar e ficar te observando fazendo qualquer
+                coisa básica do dia. Adoro quando me pede pra secar seus cabelos e como você fica GOSTOSO
+                com eles molhados pra trás..................
+            </p>
+        </div>
+        <div id="corpo" class="ancoras"><h4>Corpo</h4>
+            <img src="corpo.jpg">
+            <br>
+            <p>
+                Você sempre me disse também como é inseguro com seu corpo e eu nunca vou me cansar
+                de falar o quanto eu te acho lindo, o quanto seu corpo me enlouquece em todos o sentidos.
+                E essa característica é especial, porque só de te ver de longe eu preciso me agarrar em ti,
+                você me dá um calor e um tesão que há muito tempo eu não sentia dessa forma e eu amo o fogo
+                que a gente tem desde o primeiro dia que nossos lábios se encontraram na minha cama, na frente
+                dos nossos amigos.
+            </p>
+        </div>
+        <div id="responsa" class="ancoras"><h4>Responsabilidade</h4>
+            <img src="responsa.jpg">
+            <br>
+            <p>
+                Algo que eu acho muito importante num relacionamento, é a responsabilidade e isso é 
+                algo que você sempre me mostrou ter propriedade. Desde o seu término, a responsabilidade
+                afetiva me invejava, a forma como você lida bem com as coisas, mesmo depois de um surto,
+                mesmo ficando chateado. Eu te admiro profundamente pela pessoa que você é e por tudo que você
+                realizou até aqui e amo o fato de poder confiar em tudo que planejamos ter e que tudo vai
+                se realizar da melhor forma.
+            </p>
+        </div>
+        <div id="gm" class="ancoras"><h4>Gostos musicais</h4>
+            <img src="gm.jpg">
+            <br>
+            <p>
+                Isso eu realmente acho importante entre um casal, e com a gente isso é perfeito,
+                pois gostamos da maioria das coisas igualmente. Óbvio que somos pessoas individuais,
+                temos coisas favoritas diferentes, amores por bandas diferentes, mas é ótimo poder
+                planejar ir em algum lugar em que nós dois vamos curtir a música e não ficar um
+                com cara de tédio pro outro. Tô extremamente ansiosa pra ver minha primeira banda
+                internacional ao vivo com você!!!!!
+            </p>
+        </div>
+        <div id="fami" class="ancoras"><h4>Família</h4>
+            <img src="fami.jpg">
+            <br>
+            <p>
+                Bom, você sabe que eu não tenho bom histórico com familiares de ex-namorados(as)
+                e isso sempre me assustou um pouco, porque é difícil ser eu mesma num ambiente hostil
+                em que as pessoas não vão com a minha cara. Mas, desde sempre sua família sempre fez 
+                eu me sentir acolhida e confortável em ser eu mesma, falar as coisas que eu penso e 
+                agir da forma que eu gosto. Adoro passar tempo com você e sua família em todos os lugares,
+                sinto como se tivesse sido escolhida pra você.
+            </p>
+        </div>
+        <div id="pia" class="ancoras"><h4>Piadas</h4>
+            <img src="piada.jpg">
+            <br>
+            <p>
+                Ok, esse assunto é delicado, mas eu AMO as suas piadas, até as mais sem graças quando 
+                você diz "Não é Karma não, doida, é guarda-roupa" naquele dia que você bateu a cabeça 
+                sem querer. Gosto muito dos vídeos engraçados que você manda, da sua gargalhada vendo 
+                algo bobo e até as piadas machistas e misóginas tiram um pouco de riso meu. Desde sempre você 
+                é assim e eu sou muito grata de poder te conhecer e sua personalidade verdadeira.
+           </p>
+        </div>
+    </div>
+</body>
+</html>
